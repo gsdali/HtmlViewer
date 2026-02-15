@@ -568,7 +568,7 @@ type
     property CaretPos: Integer read FCaretPos write SetCaretPos;
     property CurrentFile: ThtString read FCurrentFile;
     property DocumentCodePage: Integer read GetDocumentCodePage;
-//    property DocumentSource: ThtString read GetDocumentSource;
+    property DocumentSource: ThtString read GetDocumentSource;  // Uncommented for Templot compatibility
     property DocumentTitle: ThtString read FTitle write FTitle;
     property FormControlList: TFormControlObjList read GetFormControlList;
     property FormData: TFormData read GetFormData write SetFormData;
